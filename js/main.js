@@ -2,8 +2,7 @@ $(function () {
 
     "use strict";
 
-
-    //=======MENU FIX JS=======   
+    //=====MENU FIX JS======   
     if ($('.main_menu').offset() != undefined) {
         var navoff = $('.main_menu').offset().top;
         $(window).scroll(function () {
@@ -89,7 +88,7 @@ $(function () {
     //======STICKY SIDEBAR======
     $("#sticky_sidebar").stickit({
         top: 100,
-    })
+    });
 
 
 });

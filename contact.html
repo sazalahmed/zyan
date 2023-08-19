@@ -38,13 +38,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home <i class="far fa-angle-down"></i></a>
+                        <a class="nav-link active" href="index.html">Home <i class="far fa-angle-down"></i></a>
                         <ul class="droap_menu">
-                            <li><a href="#">Home 1</a></li>
-                            <li><a href="#">Home 2</a></li>
-                            <li><a href="#">Home 3</a></li>
-                            <li><a href="#">Home 4</a></li>
-                            <li><a href="#">Home 5</a></li>
+                            <li><a href="index.html">Home 1</a></li>
+                            <li><a href="index_2.html">Home 2</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -57,7 +54,7 @@
                         <a class="nav-link" href="#">Projects <i class="far fa-angle-down"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">blog <i class="far fa-angle-down"></i></a>
+                        <a class="nav-link" href="blog_list.html">blog <i class="far fa-angle-down"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">pages <i class="far fa-angle-down"></i></a>
@@ -70,7 +67,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">contact <i class="far fa-angle-down"></i></a>
+                        <a class="nav-link" href="contact.html">contact <i class="far fa-angle-down"></i></a>
                     </li>
                 </ul>
                 <span class="toggle_icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
@@ -79,15 +76,42 @@
         </div>
     </nav>
 
-
-
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                    class="far fa-times"></i></button>
         </div>
         <div class="offcanvas-body">
-            ...
+            <div class="tf__toggle_search">
+                <form>
+                    <input type="text" placeholder="Search...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div class="tf__toggle_categories">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#"><span><i class="fas fa-file-alt"></i> NFTs</span> (148)</a></li>
+                    <li><a href="#"><span><i class="fas fa-paint-brush"></i> digital art</span> (97)</a></li>
+                    <li><a href="#"><span><i class="fas fa-coin"></i> crypto</span> (45)</a></li>
+                    <li><a href="#"><span><i class="fas fa-user-robot"></i> technology</span> (728)</a></li>
+                </ul>
+            </div>
+            <div class="tf__toggle_company">
+                <h3>Company</h3>
+                <p>Help Center</p>
+                <p>Platform status</p>
+            </div>
+            <div class="tf__toggle_link">
+                <h3>Join the commubity</h3>
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                    <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <!--================================
@@ -270,13 +294,20 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <!--font-awesome js-->
     <script src="js/Font-Awesome.js"></script>
+    <!--scroll button js-->
     <script src="js/scroll_button.js"></script>
+    <!--venobox js-->
     <script src="js/venobox.min.js"></script>
+    <!--counterup js-->
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.countup.min.js"></script>
+    <!--animated barfiller js-->
     <script src="js/animated_barfiller.js"></script>
+    <!--animated slick js-->
     <script src="js/slick.min.js"></script>
+    <!--marquee js-->
     <script src="js/jquery.marquee.min.js"></script>
+    <!--sticky sidebar js-->
     <script src="js/sticky_sidebar.js"></script>
 
     <!--main/custom js-->
