@@ -49,19 +49,19 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 }
             },
             {
@@ -90,5 +90,10 @@ $(function () {
         top: 100,
     });
 
+
+    //======MOBILE MENU BUTTON=======
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show");
+    });
 
 });
