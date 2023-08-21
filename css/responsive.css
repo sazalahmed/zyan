@@ -1,3 +1,56 @@
+@media (min-width: 1400px) and (max-width: 1600px) {
+
+    /*==============================
+        HOME PAGE 2 START
+    ==============================*/
+    .tf__banner_text h1 {
+        font-size: 90px;
+    }
+
+    .tf__about_img_2 {
+        width: auto;
+        height: auto;
+    }
+
+    .tf__about_text_2 ul li {
+        margin-top: 60px;
+    }
+
+    .tf__single_service_2 a {
+        padding: 16px 30px;
+    }
+
+    .tf__skills_2 .nav .nav-item button {
+        padding: 15px 30px;
+    }
+
+    .tf__blog_img_2 {
+        height: 240px;
+    }
+
+    .tf__blog_text_2 .title {
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    .tf__contact_2_text {
+        padding: 40px;
+    }
+
+    .main {
+        padding-left: 277px;
+        padding-right: 30px;
+    }
+
+    .tf__section_heading h2 {
+        font-size: 48px;
+    }
+
+    /*==============================
+        HOME PAGE 2 END
+    ==============================*/
+}
+
 @media (min-width: 1200px) and (max-width: 1399.99px) {
 
     /*==============================
@@ -64,7 +117,6 @@
      HOME PAGE END
     ==============================*/
 
-
     /*==============================
      BLOG DETAILS START
     ==============================*/
@@ -89,7 +141,6 @@
      BLOG DETAILS END
     ==============================*/
 
-
     /*==============================
      BLOG LIST START
     ==============================*/
@@ -101,10 +152,65 @@
      BLOG LIST END
     ==============================*/
 
+    /*==============================
+        HOME PAGE 2 START
+    ==============================*/
+    .tf__about_img_2 {
+        width: auto;
+        height: auto;
+    }
 
+    .tf__about_text_2 ul li {
+        margin-top: 60px;
+    }
+
+    .tf__single_service_2 a {
+        padding: 16px 25px;
+    }
+
+    .tf__skills_2 .nav .nav-item button {
+        padding: 15px 35px;
+    }
+
+    .tf__blog_img_2 {
+        height: 240px;
+    }
+
+    .tf__blog_text_2 .title {
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    .tf__contact_2_text {
+        padding: 20px;
+    }
+
+    .main {
+        padding-left: 267px;
+        padding-right: 20px;
+    }
+
+    .tf__about_text_2 ul li p {
+        font-size: 14px;
+    }
+
+    .tf__single_service_2 .text {
+        padding: 30px;
+    }
+
+    .tf__contact_2_text p,
+    .tf__contact_2_text a {
+        font-size: 14px;
+    }
+
+    .tf__single_skill_2 {
+        padding: 30px 30px 30px 50px;
+    }
+
+    /*==============================
+        HOME PAGE 2 END
+    ==============================*/
 }
-
-
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
 
@@ -173,7 +279,6 @@
      HOME PAGE END
     ==============================*/
 
-
     /*==============================
      BLOG DETAILS START
     ==============================*/
@@ -234,7 +339,6 @@
      BLOG DETAILS END
     ==============================*/
 
-
     /*==============================
      BLOG LIST START
     ==============================*/
@@ -246,11 +350,77 @@
      BLOG LIST END
     ==============================*/
 
+    /*==============================
+        HOME PAGE 2 START
+    ==============================*/
+    .menu_2_icon {
+        display: block;
+    }
 
+    .main_menu_2 .logo_2 {
+        padding: 20px 50px;
+    }
 
+    .main_menu_2 ul li a span {
+        width: 50px;
+        height: 50px;
+        line-height: 10px;
+    }
 
+    .main_menu_2 ul li a {
+        font-size: 16px;
+    }
+
+    .main_menu_2 ul {
+        max-height: 635px;
+    }
+
+    .main_menu_2 {
+        left: -250px;
+    }
+
+    .main_menu_2.show_menu {
+        left: 0;
+    }
+
+    .main {
+        padding-left: 0;
+    }
+
+    .tf__banner_text_2 {
+        justify-content: center;
+        padding-bottom: 0;
+    }
+
+    .tf__about_text_2 ul li {
+        margin-top: 70px;
+    }
+
+    .tf__about_img_2 {
+        width: auto;
+        height: auto;
+    }
+
+    .tf__single_service_2 .text {
+        padding: 30px;
+    }
+
+    .tf__single_service_2 a {
+        padding: 15px 30px;
+    }
+
+    .tf__blog_text_2 .title {
+        max-width: 65%;
+    }
+
+    .tf__contact_2_text {
+        padding: 30px;
+    }
+
+    /*==============================
+        HOME PAGE 2 END
+    ==============================*/
 }
-
 
 
 @media (min-width: 768px) and (max-width: 991.99px) {
@@ -327,11 +497,7 @@
     }
 
     .tf__banner_text h1 {
-        font-size: 70px;
-    }
-
-    .tf__banner_text h3 {
-        font-size: 36px;
+        font-size: 85px;
     }
 
     .tf__banner_text {
@@ -450,7 +616,6 @@
      HOME PAGE END
     ==============================*/
 
-
     /*==============================
      BLOG DETAILS START
     ==============================*/
@@ -501,7 +666,6 @@
      BLOG DETAILS END
     ==============================*/
 
-
     /*==============================
      BLOG LIST START
     ==============================*/
@@ -513,8 +677,6 @@
      BLOG LIST END
     ==============================*/
 
-
-
     /*==============================
         CONTACT START
     ==============================*/
@@ -525,10 +687,135 @@
     /*==============================
         CONTACT END
     ==============================*/
+
+    /*==============================
+        HOME PAGE 2 START
+    ==============================*/
+    .menu_2_icon {
+        display: block;
+    }
+
+    .main_menu_2 .logo_2 {
+        padding: 20px 50px;
+    }
+
+    .main_menu_2 ul li a span {
+        width: 50px;
+        height: 50px;
+        line-height: 10px;
+    }
+
+    .main_menu_2 ul li a {
+        font-size: 16px;
+    }
+
+    .main_menu_2 ul {
+        max-height: 635px;
+    }
+
+    .main_menu_2 {
+        left: -250px;
+    }
+
+    .main_menu_2.show_menu {
+        left: 0;
+    }
+
+    .main {
+        padding-left: 0;
+    }
+
+    .tf__banner_2 {
+        height: auto;
+        padding: 70px 0px 105px 0px;
+    }
+
+    .tf__banner_text_2 {
+        padding-bottom: 0;
+    }
+
+    .tf__about_text_2 ul li {
+        margin-top: 70px;
+    }
+
+    .tf__about_text_2 ul li .top .img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .tf__about_img_2 .tf__about_img_text {
+        padding: 15px;
+        top: -30px;
+    }
+
+    .tf__about_img_2 .tf__about_img_text h4 {
+        font-size: 28px;
+    }
+
+    .tf__about_img_2 .tf__about_img_text h4 span {
+        font-size: 16px;
+    }
+
+    .tf__about_img_2::before {
+        width: 150px;
+        height: 150px;
+    }
+
+    .tf__single_service_2:hover .text,
+    .tf__single_service_2.active .text {
+        margin-top: 165px;
+    }
+
+    .tf__single_service_2 a,
+    .tf__single_service_2 a {
+        padding: 16px 30px;
+    }
+
+    .tf__single_service_2:hover a,
+    .tf__single_service_2.active a {
+        bottom: -59px;
+        z-index: 1;
+    }
+
+    .tf__skills_2 .nav .nav-item button {
+        padding: 15px 30px;
+        font-size: 15px;
+    }
+
+    .progress-wrap {
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .tf__single_skill_2 h2 {
+        font-size: 16px;
+    }
+
+    .tf__portfolio_item .text h4 {
+        font-size: 16px;
+    }
+
+    .tf__portfolio_item .text p {
+        font-size: 14px;
+    }
+
+    .tf__blog_img_2 {
+        height: 280px;
+    }
+
+    .tf__blog_text_2 .title {
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    .tf__contact_2_text {
+        padding: 30px;
+    }
+
+    /*==============================
+        HOME PAGE 2 END
+    ==============================*/
 }
-
-
-
 
 @media (min-width: 576px) and (max-width: 767.99px) {
 
@@ -597,8 +884,6 @@
     .main_menu .toggle_icon {
         display: none;
     }
-
-
 
     .tf__banner {
         height: auto;
@@ -713,7 +998,6 @@
      HOME PAGE END
     ==============================*/
 
-
     /*==============================
      BLOG DETAILS START
     ==============================*/
@@ -777,7 +1061,6 @@
      BLOG DETAILS END
     ==============================*/
 
-
     /*==============================
      BLOG LIST START
     ==============================*/
@@ -804,8 +1087,6 @@
      BLOG LIST END
     ==============================*/
 
-
-
     /*==============================
         CONTACT START
     ==============================*/
@@ -821,11 +1102,125 @@
         CONTACT END
     ==============================*/
 
+    /*==============================
+        HOME PAGE 2 START
+    ==============================*/
+    .menu_2_icon {
+        display: block;
+    }
 
+    .main_menu_2 .logo_2 {
+        padding: 20px 50px;
+    }
+
+    .main_menu_2 ul li a span {
+        width: 50px;
+        height: 50px;
+        line-height: 10px;
+    }
+
+    .main_menu_2 ul li a {
+        font-size: 16px;
+    }
+
+    .main_menu_2 ul {
+        max-height: 635px;
+    }
+
+    .main_menu_2 {
+        left: -250px;
+    }
+
+    .main_menu_2.show_menu {
+        left: 0;
+    }
+
+    .main {
+        padding-left: 0;
+    }
+
+    .tf__banner_2 {
+        height: auto;
+        padding: 70px 0px 105px 0px;
+    }
+
+    .tf__banner_text_2 {
+        padding-bottom: 0;
+    }
+
+    .tf__about_text_2 ul li {
+        margin-top: 70px;
+    }
+
+    .tf__about_text_2 ul li .top .img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .tf__about_img_2 .tf__about_img_text {
+        padding: 15px;
+    }
+
+    .tf__about_img_2 .tf__about_img_text h4 {
+        font-size: 28px;
+    }
+
+    .tf__about_img_2 .tf__about_img_text h4 span {
+        font-size: 16px;
+    }
+
+    .tf__about_img_2::before {
+        width: 150px;
+        height: 150px;
+    }
+
+    .tf__single_service_2:hover .text,
+    .tf__single_service_2.active .text {
+        margin-top: 165px;
+    }
+
+    .tf__single_service_2 a,
+    .tf__single_service_2 a {
+        padding: 16px 30px;
+    }
+
+    .tf__single_service_2:hover a,
+    .tf__single_service_2.active a {
+        bottom: -59px;
+        z-index: 1;
+    }
+
+    .tf__single_skill_2 {
+        padding: 20px 20px 20px 50px;
+    }
+
+    .tf__skills_2 .nav .nav-item button {
+        padding: 10px 20px;
+        font-size: 13px;
+        margin: 5px 5px;
+    }
+
+    .progress-wrap {
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .tf__single_skill_2 h2 {
+        font-size: 16px;
+    }
+
+    .tf__portfolio_item .text h4 {
+        font-size: 16px;
+    }
+
+    .tf__portfolio_item .text p {
+        font-size: 14px;
+    }
+
+    /*==============================
+        HOME PAGE 2 END
+    ==============================*/
 }
-
-
-
 
 @media (max-width: 575.99px) {
 
@@ -894,8 +1289,6 @@
     .main_menu .toggle_icon {
         display: none;
     }
-
-
 
     .tf__banner {
         height: auto;
@@ -1067,7 +1460,6 @@
      HOME PAGE END
     ==============================*/
 
-
     /*==============================
      BLOG DETAILS START
     ==============================*/
@@ -1156,7 +1548,6 @@
      BLOG DETAILS END
     ==============================*/
 
-
     /*==============================
      BLOG LIST START
     ==============================*/
@@ -1187,8 +1578,6 @@
      BLOG LIST END
     ==============================*/
 
-
-
     /*==============================
         CONTACT START
     ==============================*/
@@ -1204,7 +1593,132 @@
         CONTACT END
     ==============================*/
 
+    /*==============================
+        HOME PAGE 2 START
+    ==============================*/
+    .menu_2_icon {
+        display: block;
+    }
 
+    .main_menu_2 .logo_2 {
+        padding: 20px 50px;
+    }
 
+    .main_menu_2 ul li a span {
+        width: 50px;
+        height: 50px;
+        line-height: 10px;
+    }
 
+    .main_menu_2 ul li a {
+        font-size: 16px;
+    }
+
+    .main_menu_2 ul {
+        max-height: 635px;
+    }
+
+    .main_menu_2 {
+        left: -250px;
+    }
+
+    .main_menu_2.show_menu {
+        left: 0;
+    }
+
+    .main {
+        padding-left: 0;
+    }
+
+    .tf__banner_2 {
+        height: auto;
+        padding: 70px 0px 105px 0px;
+    }
+
+    .tf__banner_text_2 {
+        padding-bottom: 0;
+    }
+
+    .tf__about_text_2 ul li {
+        margin-top: 70px;
+    }
+
+    .tf__about_text_2 ul li .top .img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .tf__about_text_2 ul li .top h3 {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .tf__about_img_2 .tf__about_img_text {
+        padding: 15px;
+        top: 0;
+    }
+
+    .tf__about_img_2 .tf__about_img_text h4 {
+        font-size: 28px;
+    }
+
+    .tf__about_img_2 .tf__about_img_text h4 span {
+        font-size: 16px;
+    }
+
+    .tf__about_img_2::before {
+        width: 150px;
+        height: 150px;
+    }
+
+    .tf__single_service_2:hover .text,
+    .tf__single_service_2.active .text {
+        margin-top: 165px;
+    }
+
+    .tf__single_service_2 a,
+    .tf__single_service_2 a {
+        padding: 16px 30px;
+    }
+
+    .tf__single_service_2:hover a,
+    .tf__single_service_2.active a {
+        bottom: -59px;
+        z-index: 1;
+    }
+
+    .tf__single_skill_2 {
+        padding: 20px 20px 20px 50px;
+    }
+
+    .tf__skills_2 .nav .nav-item button {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    .tf__blog_img_2 {
+        height: 230px;
+    }
+
+    .tf__blog_text_2 .title {
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    .tf__contact_2_text {
+        padding: 20px;
+    }
+
+    .progress-wrap {
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .tf__single_skill_2 h2 {
+        font-size: 16px;
+    }
+
+    /*==============================
+        HOME PAGE 2 END
+    ==============================*/
 }

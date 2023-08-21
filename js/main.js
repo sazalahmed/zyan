@@ -2,6 +2,7 @@ $(function () {
 
     "use strict";
 
+
     //=====MENU FIX JS======   
     if ($('.main_menu').offset() != undefined) {
         var navoff = $('.main_menu').offset().top;
@@ -17,12 +18,15 @@ $(function () {
     }
 
 
+
     //=====venobox js=====
     $('.venobox').venobox();
 
 
+
     //=====counter js=======   
     $('.counter').countUp();
+
 
 
     //====BARFILLER JS========
@@ -34,6 +38,7 @@ $(function () {
         $('#bar5').barfiller({ barColor: '#55E6A5' });
         $('#bar6').barfiller({ barColor: '#55E6A5' });
     });
+
 
 
     //======TESTIMONIAL SLIDER======   
@@ -74,6 +79,7 @@ $(function () {
     });
 
 
+
     //======BRAND SLIDER======   
     $('.marquee_animi').marquee({
         speed: 100,
@@ -85,10 +91,23 @@ $(function () {
     });
 
 
+
     //======STICKY SIDEBAR======
     $("#sticky_sidebar").stickit({
         top: 100,
     });
+
+
+
+    //======MOBILE MENU BUTTON=======
+    $(".menu_2_icon").on("click", function () {
+        $(".menu_2_icon").toggleClass("show_icon");
+    });
+
+    $(".menu_2_icon").on("click", function () {
+        $(".main_menu_2").toggleClass("show_menu");
+    });
+
 
 
     //======MOBILE MENU BUTTON=======
